@@ -1,0 +1,17 @@
+.skills-item {
+    background-color: #FFFFFF;
+    width: auto;
+    height: 7.375rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+@media screen and (min-width: 992px) {
+    .skills-item{
+        height: 10.875rem;
+    } 
+}

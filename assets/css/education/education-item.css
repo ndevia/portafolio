@@ -1,0 +1,15 @@
+
+.education-item {
+    font-family: 'Raleway', sans-serif;
+    color: #464646;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+@media screen and (min-width:768px) {
+    .education-item {
+        width: auto;
+    }
+}

@@ -1,0 +1,13 @@
+.about-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (min-width: 992px) {
+    .about-text {
+        font-size: 1rem;
+        width: 66%;
+    }
+}

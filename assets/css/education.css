@@ -1,0 +1,20 @@
+.education {
+    background-color:#EAF2FD;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 992px) {
+    .education{
+        padding: 5.125rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .education {
+        padding: 5.125rem 9.5rem;
+    }
+}

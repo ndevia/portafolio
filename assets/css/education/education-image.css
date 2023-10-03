@@ -1,0 +1,22 @@
+.education-image {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 7.375rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education-icon {
+    width: auto;
+}
+
+@media screen and (min-width: 992px) {
+    .education-image {
+        height: 17.875rem;
+    }
+
+    .education-icon {
+        height: 8.125rem;
+    }
+}

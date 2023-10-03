@@ -1,0 +1,13 @@
+.education-title {
+    text-align: center;
+    font-family:'Raleway', sans-serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 992px) {
+    .education-title{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,13 @@
+.skills-title {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@media screen and (min-width: 992px) {
+    .skills-title {
+        font-size: 2rem;
+    }
+}
