@@ -15,7 +15,7 @@ const contenedorProyectos = document.querySelector(".proyectos-contenedor");
 
 proyectos.forEach((proyecto) => {
   const div = document.createElement("div");
-  div.classList.add("proyecto", "col-12", "col-lg-6");
+  div.classList.add("col-12", "col-lg-6", "mb-5");
   // card
   const card = document.createElement("div");
   card.classList.add("card", "card-proyecto", "my-3");
@@ -44,18 +44,20 @@ proyectos.forEach((proyecto) => {
   tecnologias.append(strong, proyecto.tecnologias.join(", "), ".");
   // links 
   const contenedorBotones = document.createElement("div");
-  contenedorBotones.classList.add("botones", "mt-5");
+  contenedorBotones.classList.add("text-center", "mt-5");
   // link a GitHub Pages
   const botonProyecto = document.createElement("a");
-  botonProyecto.classList.add("btn", "btn-secondary", "boton-proyecto", "mx-2", "fw-bold");
+  botonProyecto.classList.add("btn", "btn-secondary", "fondo-secundario", "border-0", "mx-2", "fw-bold");
   botonProyecto.href = `https://ndevia.github.io/${proyecto.nombre.toLowerCase()}/`;
-  botonProyecto.target = "_blank"
+  botonProyecto.target = "_blank";
+  botonProyecto.rel = "noopener noreferrer";
   botonProyecto.textContent = "Ver Proyecto";
   // link a repositorio en GitHub
   const botonCodigo = document.createElement("a");
-  botonCodigo.classList.add("btn", "btn-secondary", "boton-proyecto", "mx-2", "fw-bold");
+  botonCodigo.classList.add("btn", "btn-secondary", "fondo-primario", "border-0", "mx-2", "fw-bold");
   botonCodigo.href = `https://github.com/ndevia/${proyecto.nombre.toLowerCase()}/`;
-  botonCodigo.target = "_blank"
+  botonCodigo.target = "_blank";
+  botonCodigo.rel = "noopener noreferrer";
   botonCodigo.textContent = "Ver Código";
 
   contenedorBotones.append(botonProyecto, botonCodigo);
@@ -78,7 +80,7 @@ let grillaHabilidades = document.querySelector(".grilla-habilidades");
 
 habilidades.forEach((habilidad) => {
   const card = document.createElement("div");
-  card.classList.add("card", "habilidad");
+  card.classList.add("card", "fondo-terciario", "texto-fuente", "habilidad");
   const cardBody = document.createElement("div");
   cardBody.classList.add("card-body", "text-center", "p-0");
   const iconoHabilidad = document.createElement("i");
