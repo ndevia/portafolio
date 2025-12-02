@@ -1,4 +1,4 @@
-# Módulo 2 - Evaluación Portafolio
+# Portafolio
 
 > Desarrollo de portafolio como página web, a partir de la [maqueta](https://www.figma.com/design/scHjUx8kUvN3B0OGT3w5Kh/Portafolio?node-id=0-1&p=f&t=WH8gsRFuaEVhVpfg-0) realizada en la Evaluación de portafolio del Módulo 1.
 
@@ -30,10 +30,10 @@ Recuerda que este proyecto irá directamente al registro de evidencia de tu port
 ## 🧪 Cómo ejecutar
 
 1. #### Clonar el repositorio:
-- git clone https://github.com/ndevia/portafolio-bootcamp-js.git
+- git clone https://github.com/ndevia/portafolio.git
 
 2. #### Navegar a la carpeta del proyecto
-- cd Evaluacion_portafolio_Natalia_Devia
+- cd portafolio
 
 3. #### Abrir el proyecto:
 
@@ -42,5 +42,5 @@ Puede realizarse utilizando cualquiera de las formas descritas a continuación:
 - Abrir `VS Code` y ejecutar con `Live Server` 
 
 ## 🚀 Despliegue:
-Este proyecto fue desplegado en GitHub Pages y se puede visitar en el siguiente [link](https://ndevia.github.io/portafolio-bootcamp-js/).
+Este proyecto fue desplegado en GitHub Pages y se puede visitar en el siguiente [link](https://ndevia.github.io/portafolio/).
 
